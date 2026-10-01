@@ -4,4 +4,6 @@ module hu.unideb.inf {
 
     opens hu.unideb.inf to javafx.fxml;
     exports hu.unideb.inf;
+    exports hu.unideb.inf.controller;
+    opens hu.unideb.inf.controller to javafx.fxml;
 }
